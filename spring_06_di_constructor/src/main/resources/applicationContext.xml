@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="bookDao" class="com.it.dao.impl.BookDaoImpl">
+
+        <constructor-arg name="connectionNum" value="5"></constructor-arg>
+        <constructor-arg name="name" value="nihao"></constructor-arg>
+    </bean>
+
+    <bean id="bookService" class="com.it.service.impl.BookServiceImpl">
+        <constructor-arg name="bookDao" ref="bookDao"></constructor-arg>
+    </bean>
+</beans>
