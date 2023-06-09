@@ -11,7 +11,7 @@ import java.util.*;
 
 @Component("bookDao")
 public class BookDaoImpl implements BookDao {
-    @Value("nihao")
+    @Value("${name}")
     private String name;
     public void save() {
         System.out.println("book dao save ..." + name);

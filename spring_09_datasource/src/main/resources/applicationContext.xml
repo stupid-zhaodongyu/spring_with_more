@@ -34,7 +34,7 @@
         <property name="password" value="${jdbc.password}"></property>
     </bean>
 
-    <bean id="bookDao" class="com.it.dao.impl.BookDaoImpl">
+    <bean id="bookDao" class="com.it.dao.impl.ResourceDaoImpl">
         <property name="name" value="roottt"></property>
     </bean>
 

@@ -15,6 +15,7 @@ import org.springframework.stereotype.Repository;
 @Controller
 public class BookServiceImpl implements BookService{
     @Autowired
+    @Qualifier("bookDao")
     private BookDao bookDao;
     public void save(){
         System.out.println("book service save");

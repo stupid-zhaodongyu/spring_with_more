@@ -18,6 +18,14 @@
         <option value="$PROJECT_DIR$/spring_11_annotationi_bean/pom.xml" />
         <option value="$PROJECT_DIR$/spring_12_annotation_bean_manager/pom.xml" />
         <option value="$PROJECT_DIR$/spring_13_annotation_di/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_14_third_bean_manager/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_15_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_17_aop_demo/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_18_aop_quickstart/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_20_aop_advice_type/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_21_case_interface_run_speed/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_22_aop_advice_data/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_23_case_handle_password/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

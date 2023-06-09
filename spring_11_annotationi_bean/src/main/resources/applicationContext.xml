@@ -10,7 +10,7 @@
 
     <context:component-scan base-package="com.it"></context:component-scan>
 
-<!--    <bean id="bookDao" class="com.it.dao.impl.BookDaoImpl"></bean>-->
+<!--    <bean id="bookDao" class="com.it.dao.impl.ResourceDaoImpl"></bean>-->
 
 
 </beans>
